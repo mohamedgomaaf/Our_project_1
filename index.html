@@ -1,21 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <title>s-m-p</title>
+    <title>our project</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- start top_nav -->
+<!-- start top_nav -->
 <div class="top_nav">
     <div class="container">
         <div class="left_nav">
-                <p>Our Location</p>
-                <p> ellethemes@gmail.com</p>
+            <i class="fa-solid fa-location-arrow"></i>
+            <p>Our Location</p>
+            <i class="fa-solid fa-user"></i>
+            <p> ellethemes@gmail.com</p>
         </div>
         <div class="right_nav">
             <ul class="text_right_nav">
@@ -107,83 +116,179 @@
     </div>
 </div>
 <!-- end ad -->
-    <section class="jumbon-text">
-        <h1 class="display-3"> featured product</h1>
-        <p class="pra">  In et massa a massa egestas suscipit tincidunt ut est. 
-          </p>
-          <p class="pra">   Curabitur rutrum faucibus elit, at convallis diam mattis eget
-            . Nullam vulputate nibh at nisi consectetur.</p>
-    </section>
-    <section class="gallary">
-        <div class="container">
-
-            <div class="row">
-                <div class="back">
-                    <div class="card">
-                        <div class="img">
-                            <img src=".//img/11jpj.jpg"class="img-top">
-                            <div class="overlay">
-                                <button class="btn"> add to cart</button>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title"> bridgeport automtic chorgraph</h5>
-                            <h6 class="card-subtitle"> $20.18</h6>                        
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="back">
-                    <div class="card">
-                        <div class="img">
-                            <img src=".//img/12jpj.jpg"class="img-top">
-                            <div class="overlay">
-                                <button class="btn"> add to cart</button>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">  chorgraph stainless stel rose gold tone</h5>
-                            <h6 class="card-subtitle"> $20.18</h6>                        
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="back">
-                    <div class="card">
-                        <div class="img">
-                            <img src=".//img/13.jpj.jpg"class="img-top">
-                            <div class="overlay">
-                                <button class="btn"> add to cart</button>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title"> pr 100 coscu tomatic</h5>
-                            <h6 class="card-subtitle"> $20.18</h6>                        
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+<!-- start featured_products -->
+<div class="featured_products">
+    <div class="container">
+        <div class="title_products">
+            <h1>Featured Products</h1>
+            <p>In et massa a massa egestas suscipit tincidunt ut est. Curabitur rutrum faucibus elit, at convallis
+                 diam mattis eget. Nullam vulputate nibh at nisi consectetur.</p>
         </div>
-    </section>
+        <div class="products_container">
+            <div class="box">
+                <div class="image">
+                    <img src="/images/product1.jpg" alt="" class="img-top">
+                    <div class="overlay">
+                        <div class="btn_1">
+                            <button class="btn"> add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>Bridgeport Automatic Chronograph</p>
+                    <p>$2,125.00 $1,900.00</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="/images/product2.jpg" alt="" class="img-top">
+                    <div class="overlay">
+                        <button class="btn"> add to cart</button>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>Bridgeport Automatic Chronograph</p>
+                    <p>$2,125.00 $1,900.00</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="/images/product3.jpg" alt="" class="img-top">
+                    <div class="overlay">
+                        <button class="btn"> add to cart</button>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>Bridgeport Automatic Chronograph</p>
+                    <p>$2,125.00 $1,900.00</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="/images/product4.jpg" alt="" class="img-top">
+                    <div class="overlay">
+                        <button class="btn"> add to cart</button>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>Bridgeport Automatic Chronograph</p>
+                    <p>$2,125.00 $1,900.00</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="/images/product5.jpg" alt="" class="img-top">
+                    <div class="overlay">
+                        <button class="btn"> add to cart</button>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>Bridgeport Automatic Chronograph</p>
+                    <p>$2,125.00 $1,900.00</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="/images/product6.jpg" alt="" class="img-top">
+                    <div class="overlay">
+                        <button class="btn"> add to cart</button>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>Bridgeport Automatic Chronograph</p>
+                    <p>$2,125.00 $1,900.00</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="/images/product7.jpg" alt="" class="img-top">
+                    <div class="overlay">
+                        <button class="btn"> add to cart</button>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>Bridgeport Automatic Chronograph</p>
+                    <p>$2,125.00 $1,900.00</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="/images/product8.jpg" alt="" class="img-top">
+                    <div class="overlay">
+                        <button class="btn"> add to cart</button>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>Bridgeport Automatic Chronograph</p>
+                    <p>$2,125.00 $1,900.00</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="/images/product9.jpg" alt="" class="img-top">
+                    <div class="overlay">
+                        <button class="btn"> add to cart</button>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>Bridgeport Automatic Chronograph</p>
+                    <p>$2,125.00 $1,900.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end featured_products -->
+<!--start footer -->
+<div class="footer">
+    <div class="container">
+        <div class="box">
+            <ul>
+                <li><i class="fa-solid fa-download"></i></li>
+                <li><h4><a href="">Fast Delivery</a></h4></li>
+                <li><p>In et massa
+                     a massa egestas suscipit tincidunt ut est. Curabitur
+                      rutrum faucibus elit, at convallis diam mattis eget.</p></li>
+            </ul>
+        </div>
+        <div class="box">
+            <ul>
+                <li><i class="fa-solid fa-snowflake"></i></li>
+                <li><h4><a href="">Free Returns</a></h4></li>
+                <li><p>In et massa
+                     a massa egestas suscipit tincidunt ut est. Curabitur
+                      rutrum faucibus elit, at convallis diam mattis eget.</p></li>
+            </ul>
+        </div>
+        <div class="box">
+            <ul>
+                <li><i class="fa-regular fa-clock"></i></li>
+                <li><h4><a href="">Next Day Delivery</a></h4></li>
+                <li><p>In et massa
+                     a massa egestas suscipit tincidunt ut est. Curabitur
+                      rutrum faucibus elit, at convallis diam mattis eget.</p></li>
+            </ul>
+        </div>
+        <div class="box">
+            <ul>
+                <li><i class="fa-regular fa-heart"></i></li>
+                <li><h4><a href="">24/7 Support</a></h4></li>
+                <li><p>In et massa
+                     a massa egestas suscipit tincidunt ut est. Curabitur
+                      rutrum faucibus elit, at convallis diam mattis eget.</p></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--end footer -->
+<!-- start up to -->
+<div class="up_to">
+    <div class="container">
+        <p>
+            Up to 50% OFF! Get it before it's gone! 
+        </p>
+        <button>Shop Now ></button>
+    </div>
+</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
